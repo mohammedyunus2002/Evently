@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "public",
+			"path": "../../Downloads/public"
+		},
+		{
+			"name": "evently",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.html": "html",
+			"*.css": "tailwindcss"
+		},
+		"material-icon-theme.files.associations": {}
+	}
+}
