@@ -4,7 +4,6 @@ import {
 } from '@clerk/nextjs/server';
 
 const isProtectedRoute = createRouteMatcher([
-    '/',
     '/events/:id',
     '/api/webhook/clerk',
     '/api/webhook/stripe',
