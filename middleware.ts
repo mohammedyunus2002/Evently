@@ -5,7 +5,7 @@ import {
 
 const isProtectedRoute = createRouteMatcher([
     '/events/:id',
-    '/api/clerk',
+    '/api/webhook/clerk',
     '/api/stripe',
   ]);
   
