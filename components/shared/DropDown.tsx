@@ -44,11 +44,11 @@ const DropDown = ({ value,onChangeHandler }: DropDownProps) => {
         const getCategories =async () => {
             const categoryList = await getAllCategories();
 
-            categoryList && setCategories(categoryList as ICategory[])
+            categoryList && setCategories(categoryList as ICategory[]);
         }
 
         getCategories();
-    }, [])
+    }, []);
 
   return (  
     <Select onValueChange={onChangeHandler} defaultValue={value}>
